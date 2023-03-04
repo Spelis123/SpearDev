@@ -1,0 +1,65 @@
+* {
+    margin:0;
+}
+html {
+    background-color: black;
+    color:white;
+    margin: 0;
+    padding: 0;
+    scrollbar-width: none;
+    overflow: hidden;
+}
+body {
+  height: calc(100vh - 30px);
+  margin-top: 30px;
+  overflow: auto;
+}
+html::after {
+    -webkit-app-region: drag;
+    height: 31px;
+    width:100vw;
+    background-color: #101010;
+    color: #ffffff;
+    position: fixed;
+    text-align: center;
+    top:0;
+    line-height: 30px;
+    white-space: pre;
+}
+.SideBar {
+  height:calc(100vh - 30px)
+}
+.Code {
+  width:max-content;
+  height:max-content;
+}
+.Terminal {
+  width:max-content;
+  height:max-content;
+}
+.menu {
+  user-select: all;
+  -webkit-user-select: auto;
+  display: block;
+  position:fixed;
+  top: 30px;
+  left: 10px;
+  background-color: #10101000;
+  border: 1px solid #15151500;
+  opacity: 0;
+  border-radius: 10px;
+  padding: 5px;
+  transition: all .5s ease;
+  width: fit-content;
+}
+hr {
+  width:80%;
+  background-color: #303030;
+  margin: 10px;
+}
+.menu.show {
+  top: 40px;
+  background-color: #101010ff;
+  border-color: #151515;
+  opacity: 100%;
+}

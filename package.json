@@ -1,0 +1,30 @@
+{
+  "name": "speardev",
+  "version": "1.0.0",
+  "description": "nerd",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Spelis123/SpearDev.git"
+  },
+  "keywords": [
+    "dev",
+    "developer",
+    "ide"
+  ],
+  "author": "Spelis123",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Spelis123/SpearDev/issues"
+  },
+  "homepage": "https://spelis123.github.io/SpearDev/#about",
+  "devDependencies": {
+    "electron": "^23.1.0"
+  },
+  "dependencies": {
+    "custom-electron-titlebar": "^4.2.0-beta.0"
+  }
+}
